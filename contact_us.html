@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>Source Log</title>
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="contact.css">
+        <script language=javascript>
+            function send_email(content){
+                location="mailto:u6130064@anu.edu.au?subject=contact&body=" + content;
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="top_nav">
+            <!-- The top_nav_holder is used to limit the length of the content. -->
+            <div class="top_nav_holder">
+                <a href="index.html"><p class="welcome_box">Welcome to NLP online!</p></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="assignment.html">assignment.html</a></li>
+                    <li><a href="sitemap.html">Site Map</a></li>
+                    <li><a href="source_log.html">Source Log</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact_us.html">Contact us</a></li>
+                </ul>
+            </div>
+        </nav>
+        <form class="submit" name='sendmail' action='mailto:u6130064@anu.edu.com'>
+            <span>Comment:</span><br>
+            <textarea name="body" id="comments" rows="8" cols="50">your comments</textarea>
+            <br><br>
+            <span>Subject:</span><br>
+            <input type="text" name="subject" value="comment">
+            <br><br>
+            <input type="submit" value="submit">
+        </form> 
+    </body>
+</html>

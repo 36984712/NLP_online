@@ -1,0 +1,81 @@
+body, div, ul, li, input, p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+}
+
+/* top navigator bar */
+.top_nav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    height: 1.5em;
+    border: 2px solid #d8d8d8;
+}
+.top_nav_holder{
+    width: 970px;
+    margin: 0 auto;
+    height: 1.5em;
+    overflow: hidden;
+}
+.welcome_box{
+    height: 1.5em;
+    line-height: 1.5em;
+    display: block;
+    float: left;
+}
+.top_nav ul{
+    height: 1.5em;
+    line-height: 1.5em;
+    list-style-type: none;
+    float: right;
+}
+.top_nav ul li{
+    float: left;
+}
+.top_nav ul li a{
+    display: inline-block;
+    padding: 0 10px;
+}
+
+/* search bar */
+.logo_bar{
+    width: 970px;
+    padding-top: 1.5em;
+    margin: 0 auto auto;
+    overflow: hidden;
+}
+.logo_bar img{
+    height: 145px;
+    float: left;
+}
+.search{
+    width: 500px;
+    float: right;
+    line-height: 145px;
+    /* to deal with the space of blocks */
+    letter-spacing: -4px;
+    word-spacing: -4px;
+    font-size: 0;
+}
+.search input[type="text"]{
+    width: 400px;
+    height: 27px;
+    vertical-align: middle;
+    border:1px solid #A6A6A6;
+    border-right: 0 none;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+}
+.search button{
+    width: 100px;
+    height: 30px;
+    color: white;
+    background: url("image/search.png");
+    vertical-align: middle;
+    font-size: 1rem;
+    letter-spacing: normal;
+    word-spacing: normal;
+}

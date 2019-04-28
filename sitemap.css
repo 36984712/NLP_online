@@ -1,0 +1,22 @@
+main{
+    text-align:center;
+    width: 970px;
+    padding-top: 2em;
+    margin: 0 auto auto;
+    overflow: hidden;
+}
+main h1{
+    float: left;
+    padding-bottom: 10px;
+    border-bottom: 2px #d8d8d8 solid;
+}
+main ul{
+    padding-top: 1em;
+    float: left;
+    text-align: left;
+    clear: both;
+    font-size: 1.3em;
+}
+main ul li a{
+    text-decoration: none;
+}
