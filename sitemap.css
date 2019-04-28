@@ -20,3 +20,6 @@ main ul{
 main ul li a{
     text-decoration: none;
 }
+main img{
+    width: 970px;
+}
