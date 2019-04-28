@@ -1,0 +1,35 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+#container:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+#container {
+	width: 970px;
+	margin: 0 auto;
+}
+#container .img-box {
+	cursor: pointer;
+	float: left;
+	padding: 5px;
+}
+#container .img-box img {
+	width: 160px;
+	height: auto;
+}
+#container .img-box p{
+	height: 1em;
+	text-align: center;
+}
+#back {
+	position: fixed;
+	top: 0;
+	width: 50px;
+	background-color: #f1f1f1;
+	height: 3em;
+	border: 2px solid #d8d8d8;
+	text-align: center;
+}
